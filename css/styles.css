@@ -1,8 +1,12 @@
 /* Colors
 navy: #382266
 pink: #ff789e
-blue: #8d94ba
+blue: #q
 */
+:root {
+  --primary: #382266;
+  --secondary: #7daac3;
+}
 
 /***  General styles  ***/
 
@@ -45,7 +49,7 @@ a {
   width: 100%;
   margin: 0;
   padding: 2em 0 1em;
-  color: #ff789e;
+  color: var(--secondary);
   font-size: 2.5em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;

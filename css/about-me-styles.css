@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/about_background.svg);
+  background-image: url(../images/about_background.png);
   background-size: 200px;
   height: 200px;
   background-repeat: repeat;
@@ -43,11 +43,11 @@ body {
 /*** Header ***/
 .about-me__header {
   margin-top: -4em;
-  background-image: url(../images/about_header.svg);
-  background-size: 700px;
+  background-image: url(../images/about_header.jpg);
+  background-size:800px;
   background-position: center 13em;
   background-repeat: no-repeat;
-  background-color: #4b6498;
+  background-color: #ffffff;
   height: 636px;
   position: relative;
 }
@@ -60,7 +60,7 @@ body {
   font-size: 1.3em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  color: #fff;
+  color: #000000;
   text-align: center;
   position: absolute;
   left: 50%;
