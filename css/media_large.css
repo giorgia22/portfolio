@@ -13,7 +13,7 @@
     box-sizing: content-box;
     background-color: var(--secondary);
     padding: 1em 1em 0;
-    border-left: 15px solid #8d94ba;
+    border-left: 15px solid var(--secondary);
   }
   .about__img__mobile {
     display: none;
@@ -21,6 +21,6 @@
   .about__img {
     display: block;
     max-width: 382px;
-    max-height: 382px;
+    max-height: 470px;
   }
 }
