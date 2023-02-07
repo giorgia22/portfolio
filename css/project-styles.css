@@ -1,5 +1,13 @@
+
+:root {
+  --primary: #382266;
+  --secondary: #7daac3;
+  --highlight: #4593c1;
+}
+
 body {
-  background-color: #8d94ba;
+  background-color: var(--primary);
+  background: linear-gradient(to top, var(--highlight) 0%, var(--primary) 100%);
   overflow-x: hidden;
 }
 .project__container {
@@ -9,13 +17,14 @@ body {
   padding-top: 3em;
   max-width: 100%;
   height: auto;
-  background-color: #8d94ba;
+  background-color: var(--primary);
+  background: linear-gradient(to top, var(--highlight) 0%, var(--primary) 100%);
   text-align: center;
 }
 .project__title {
   margin: 0 auto;
   padding-top: 1em;
-  color: #ff789e;
+  color: var(--secondary);
   font-size: 2.5em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -30,7 +39,7 @@ body {
   width: 10px;
   height: 10px;
   margin-left: 5px;
-  background-color: #ff789e;
+  background-color: var(--secondary);
 }
 .project__title__dot--white {
   background-color: #fff;
@@ -73,17 +82,15 @@ body {
 }
 .project__header__btn:hover {
   box-shadow: 0 3px 5px -3px #333,
-              inset 0 -50px 0 0  #ff789e;
+              inset 0 -50px 0 0  var(--highlight);
   color: #fff;
 }
 .project__header__btn:first-of-type {
-  background-color: #ff789e;
+  background-color: var(--secondary);
 }
 .project__header__btn:first-of-type.project__header__btn:hover {
-  background-color: transparent;
-  box-shadow: 0 3px 5px -3px #333,
-              inset 0 -50px 0 0 rgba(255,255,255,0.3);
-  color: #fff;
+  box-shadow: 0 3px 5px -3px #333, inset 0 -50px 0 0 var(--highlight);
+  color: #fff
 }
 .project__main-container {
   background-color: #fff;
@@ -103,7 +110,7 @@ body {
 }
 .project__flex__item {
   padding: 1em 1.5em;
-  border-bottom: 2px solid #ff789e;
+  border-bottom: 2px solid var(--secondary);
 }
 .project__flex__item:nth-child(1) {
   -webkit-box-flex: 6;
@@ -119,8 +126,8 @@ body {
   margin: 0 0 0.3em;
   display: inline-block;
   padding: 0 0.8em 0.1em 0;
-  border-bottom: 2px solid #ff789e;
-  color: #ff789e;
+  border-bottom: 2px solid var(--secondary);
+  color: var(--secondary);
   font-size: 1.6em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -128,7 +135,7 @@ body {
 .project__flex__text {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  color: #382266;
+  color: var(--primary);
   font-size: 1.22em;
 }
 .project__flex__skill {
@@ -137,29 +144,29 @@ body {
   padding: 4px 10px 5px;
   font-size: 0.9em;
   font-weight: 400;
-  background-color: #8d94ba;
+  background-color: var(--highlight);
   border-radius: 5px;
   color: #fff;
 }
 .project__flex__skill--pink {
-  background-color: #ff789e;
+  background-color: var(--secondary);
 }
 .project__main__btn {
   width: 160px;
   padding: 5px 0;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  background-color: #ff789e;
+  background-color: var(--secondary);
   color: #fff;
   font-size: 1.4em;
   text-align: center;
-  border: 2px solid #ff789e;
+  border: 2px solid var(--secondary);
   position: absolute;
   transition: all 0.2s linear;
 }
 .project__main__btn:hover {
   background-color: #fff;
-  color: #ff789e;
+  color: var(--secondary);
 }
 .project__main__btn--previous {
   left: 5.8em;
