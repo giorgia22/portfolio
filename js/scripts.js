@@ -231,12 +231,14 @@ function onReady() { // Handler when the DOM is fully loaded
           showElement();
         }
       }
-      if (button == "websites-btn") {
-        portfolioItemSort("website");
-      } else if (button == "apps-btn") {
-        portfolioItemSort("app");
-      } else if (button == "illustrations-btn") {
-        portfolioItemSort("illustration");
+      if (button == "CS-btn") {
+        portfolioItemSort("CS");
+      } else if (button == "electronics-btn") {
+        portfolioItemSort("electronics");
+      } else if (button == "robotics-btn") {
+        portfolioItemSort("robotics");
+      } else if (button == "cinema-btn") {
+        portfolioItemSort("cinema");
       } else if (button == "all-btn") {
         showElement();
       }
