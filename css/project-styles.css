@@ -138,6 +138,11 @@ body {
   color: var(--primary);
   font-size: 1.22em;
 }
+.project__flex__img {
+  max-width: 95%;
+  display: block;
+  margin: 0 auto;
+}
 .project__flex__skill {
   display: inline-block;
   margin: 5px;
