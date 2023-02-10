@@ -169,7 +169,6 @@ body {
   grid-area: imm1;
   margin-left: auto;
   margin-right: auto;
-  width:80%;
 }
 .project__flex__skill {
   display: inline-block;
