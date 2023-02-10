@@ -152,23 +152,36 @@ body {
   display: grid;
   box-sizing: border-box;
   grid-template:
-    'video1 video2'
-    'imm1 imm1';
+    'pos1 pos2'
+    'pos3 pos3'
+    'pos4 pos5'
+    'pos6 pos6';
 }
 .grid-item1 {
   width:100%;
-  grid-area: video1;
+  grid-area: pos1;
 }
 .grid-item2 {
   width: 100%;
-  grid-area: video2;
+  grid-area: pos2;
+}
+.grid-item4 {
+  width:100%;
+  grid-area: pos4;
+}
+.grid-item5 {
+  width: 100%;
+  grid-area: pos5;
 }
 .grid-item3 {
   width:100%;
   display: block;
-  grid-area: imm1;
-  margin-left: auto;
-  margin-right: auto;
+  grid-area: pos3;
+}
+.grid-item6 {
+  width:100%;
+  display: block;
+  grid-area: pos6;
 }
 .project__flex__skill {
   display: inline-block;
