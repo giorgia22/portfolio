@@ -150,17 +150,21 @@ body {
 }
 .grid-container {
   display: grid;
+  box-sizing: border-box;
   grid-template:
     'video1 video2'
     'imm1 imm1';
 }
 .grid-item1 {
+  width:100%;
   grid-area: video1;
 }
 .grid-item2 {
+  width: 100%;
   grid-area: video2;
 }
 .grid-item3 {
+  width:100%;
   display: block;
   grid-area: imm1;
   margin-left: auto;
