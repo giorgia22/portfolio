@@ -138,10 +138,34 @@ body {
   color: var(--primary);
   font-size: 1.22em;
 }
-.project__flex__img {
+.project__flex__img__block {
   max-width: 95%;
   display: block;
   margin: 0 auto;
+}
+.project__flex__img__inline {
+  max-width: 95%;
+  display: inline-block;
+  margin: 0 auto;
+}
+.grid-container {
+  display: grid;
+  grid-template:
+    'video1 video2'
+    'imm1 imm1';
+}
+.grid-item1 {
+  grid-area: video1;
+}
+.grid-item2 {
+  grid-area: video2;
+}
+.grid-item3 {
+  display: block;
+  grid-area: imm1;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
 }
 .project__flex__skill {
   display: inline-block;
