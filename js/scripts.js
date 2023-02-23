@@ -147,8 +147,8 @@ function onReady() { // Handler when the DOM is fully loaded
           skillsFlex.style.height = originalHeight + "px";
           skillsBtn.innerHTML = "Show more";
           twoBottomRows.forEach(function (element) {
-            element.classList.remove("about-me__skills__show");
-            element.classList.add("about-me__skills__hide");
+            element.classList.remove("about-me__skills__hide");
+            element.classList.add("about-me__skills__show");
           });
         }
       }
